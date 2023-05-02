@@ -1,0 +1,213 @@
+html {
+    scroll-behavior: smooth;
+}
+.fon {
+    height: 100px;
+    width: 140px;
+    border-radius: 40%;
+    margin: 20px;
+}
+header {
+    background-color: LightCyan;
+    height: 130px;
+}
+header a {
+    position: relative;
+    bottom: 40px;
+    border: 2px solid steelblue;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 15px;
+    background-color: white;
+    transition: 0.3s ease-out;
+}
+header a:hover {
+    box-shadow: 0 2px 5px 0 slateblue;
+}
+header a:focus {
+    background-image: linear-gradient(to right,MediumSlateBlue,white)
+}
+main img {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+}
+main {
+    background-image: linear-gradient(CornflowerBlue, white,CornflowerBlue);
+    border-radius: 15px;
+}
+.nazvanie {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;  
+    padding: 20px;
+}
+.OA img {
+    float: left;
+    height: 300px;
+    width: 230px;
+    margin: 20px;
+    border: 3px dotted navy;
+    padding: 5px;
+}
+.OA {
+    height: 330px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.OA h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;  
+}
+.OA p {
+    color: white;
+}
+.nazvanie2 {
+    color: navy;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+}
+.uchitel {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double navy;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: LightCyan;
+}
+.Uchitela {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 10px 20px 20px 20px; 
+}
+h2 {
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+.spisok2 {
+    float: left;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    border: 5px double navy;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: LightCyan;
+}
+.spisok {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 30px 20px 30px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+h3 {
+    color: navy;
+    text-align: center;
+    font-size: 30px;
+}
+.one {
+    display: flex;
+    color: white;
+}
+.one img {
+    border: 2px dotted navy;
+    padding: 5px;
+}
+table {
+    border: 2px solid navy;
+    background-color: white;
+    border-collapse: collapse;
+    margin: 20px;
+}
+tr {
+    border: 2px dotted navy;
+    padding: 5px;
+}
+td {
+    border: 2px dotted navy;
+    padding: 5px;
+}
+tr:first-child {
+    background-color: LightCyan;
+}
+.two {
+    background-color: LightCyan;
+}
+.raspisanie {
+    display: flex;
+}
+.tabl p {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+.tabl h1 {
+    margin-left: 10px; 
+    color: white;
+    border-bottom: 3px dotted navy;
+    border-top: 3px dotted navy;
+}
+footer {
+    background-color: LightCyan;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+body {
+    font-family: sans-serif;
+}
+footer p {
+    background-color: white;
+}
+.resurs {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 2px dotted navy;
+    margin: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s ease-out;
+}
+.resurs img {
+    width: 90px;
+    height: 100px;
+}
+.resurs:hover {
+    width: 160px;
+    box-shadow: 0 10px 15px 0 navy;
+}
+.resurs a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+}
+.DZ {
+    text-align: center;
+    color: white;
+}
+main {
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-bottom: 20px;
+}
+.Resursy {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
